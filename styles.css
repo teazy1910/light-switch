@@ -1,0 +1,39 @@
+
+
+* {
+    box-sizing: border-box;
+    padding: 0; 
+    margin: 0; 
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    min-height: 100vh;
+}
+
+.button {
+    padding-block: 0.8rem;
+    padding-inline: 3rem;
+    font-size: 1.5rem;
+    border: 5px solid black;
+    cursor: pointer;
+    background-color: white;
+    color: black;
+    font-weight: 400;
+}
+
+.switch-active{
+    color: white; 
+    background-color: #333;
+    box-shadow: 0 0 5px 8px yellow;
+    transition: background-color 1s;
+ 
+}
+
+.border-switch {
+    border: 5px solid white; 
+}
+
